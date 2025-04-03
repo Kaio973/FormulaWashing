@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Speed Wash</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #121212; color: white; text-align: center; }
+        .container { max-width: 400px; margin: auto; padding: 20px; background: #222; border-radius: 10px; }
+        input, select, button { width: 100%; padding: 10px; margin-top: 10px; border-radius: 5px; border: none; }
+        button { background: red; color: white; cursor: pointer; }
+        button:hover { background: darkred; }
+    </style>
+</head>
+<body>
+    <h1>F1 Speed Wash</h1>
+    <p>The fastest and most precise car wash, inspired by Formula 1!</p>
+    <div class="container">
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <select>
+                <option>Pit Stop Wash - $15</option>
+                <option>Grand Prix Detail - $30</option>
+                <option>Champion Shine - $50</option>
+            </select>
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</body>
+</html>
